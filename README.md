@@ -3,6 +3,7 @@ Leader Election Protocol implementation for fault tolerance and adaptation in Lo
 
 Contact Information:
 Contributed and developed by: MANISH SONI <manishso@mtu.edu>
+
 MICHIGAN TECHNOLOGICAL UNIVERSITY
 
 
