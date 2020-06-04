@@ -1,10 +1,15 @@
 # leader-election-protocol
 Leader Election Protocol implementation for fault tolerance and adaptation in Low power distributed IoT systems.
 
+Contact Information:
+Contributed and developed by: MANISH SONI <manishso@mtu.edu>
+MICHIGAN TECHNOLOGICAL UNIVERSITY
+
+
 Topology Used:
-Mesh topology
-Line topology
-Ring topology
+1. Mesh topology
+2. Line topology
+3. Ring topology
 
 Conclusion of the project report:
 For the leader election protocol implementation, I tried three different topologies to test my application "LEP". The application proved efficient for the objective of leader election and it performed the fault tolerance if any of its leader goes out of the operation. The system reelects another leader given that topology binds all the low powered IoT devices so that another leader should be selected to prevent the system failure. 
