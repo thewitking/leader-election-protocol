@@ -6,6 +6,20 @@ Contributed and developed by: MANISH SONI <manishso@mtu.edu>
 
 MICHIGAN TECHNOLOGICAL UNIVERSITY
 
+## Description:
+Fault tolerance is an important aspect of any CPS-IoT system for it to be reliable and dependable. It is necessary to mitigate such faults in distributed IoT systems to maintain performance and QoS. 
+
+The objective of this project was to implement a leader election protocol that should be effective to discover the distributed IoT devices in given topology and should be adaptive enough to accommodate a new device at any moment. If at any instance the elected leader goes out of operation the system should re-elect the leader among themselves so that the overall performance of distributed IoT systems should not degrade in terms of performance and QoS.
+
+Outcome:
+Convergence time for ring topology made of 5 nodes: 28 seconds
+Convergence time for line topology made of 5 nodes: 37.8 seconds 
+Convergence time for Mesh topology made of 6 nodes: 35.16 seconds 
+
+Tools and Libraries Used: Arduino, RIOT OS, Desvirt, UDP, Socket Programming,  Ubuntu (Linux)
+Programming Language: C
+
+## Conclusion and results
 
 Topology Used:
 1. Mesh topology
