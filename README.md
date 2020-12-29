@@ -29,7 +29,10 @@ Topology Used:
 Conclusion of the project report:
 For the leader election protocol implementation, I tried three different topologies to test my application "LEP". The application proved efficient for the objective of leader election and it performed the fault tolerance if any of its leader goes out of the operation. The system reelects another leader given that topology binds all the low powered IoT devices so that another leader should be selected to prevent the system failure. 
 
-Result:
+## Result:
+![alt Mesh Topology Result of 6 nodes](https://raw.githubusercontent.com/thewitking/leader-election-protocol/master/results/mesh_topology/mesh6_2.png)
+
+
 The application took 28 seconds to converge for the leader selection process in ring topology of 5 nodes,
 37.8 seconds for line topology of 5 nodes and 35.16 seconds to converge for Mesh topology of 6 nodes.
 
